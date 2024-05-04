@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+html
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Silkscreen', sans-serif;
+    overflow: hidden;
+    background-color:black;
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+
+}
+p
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 18vh;
+    
+}
+header
+{
+    color: white;
+    padding: 1em;
+    margin: 1.30em;
+}
+nav
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+nav a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    margin-left: 3.75em;
+    margin-right: 3.75em;
+}
+
+.nav a:hover {
+    color: #ffa5ab;
+}
+main p
+{
+
+    margin-bottom: 1rem;
+}
+.hello {
+    margin-right: 7em;
+    font-size: 4.5em;
+    font-weight: bold;
+    color: #ffa5ab;
+}
+.name
+{
+   
+    margin-right: 20em;
+    font-size: 1.8em;
+    color: #a53860;
+}
+.welcome
+{
+    
+    margin-right: 24em;
+    margin-right: 24em;
+    font-size: 1.2em;
+    color: whitesmoke;
+    padding-top: 0.6em;
+}
+.main-img {
+
+    position: absolute;
+    top: 10em;
+    margin-left: 50%;
+    width: 25em;
+    height: 25em;
+    border-radius: 5em;
+
+}
+
+footer
+{
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    flex-shrink: 0;
+    position: fixed;
+    bottom: 0;
+    padding: 1px 0;
+
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    max-width: 100%; 
+    margin: 0 auto; 
+    padding: 2rem; 
+}
+
+.about-content {
+    flex: 1; 
+    margin-right: 2rem;
+    color: #ffa5ab;
+}
+
+.about-img {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projects {
+    width: 100%;
+    text-align: center;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 1.2em;
+    margin-bottom: 1.2em;
+  }
+  
+  .projects img {
+    max-width: 100%;
+    height: 25em;
+    display: block;
+    margin: 0 auto;
+    top: 40%;
+  }
+  
+  .projects td {
+    vertical-align: bottom;
+    width: 33.33%;
+    position: relative;
+  }
+  
+  .projects a {
+    display: block;
+    color: white;
+    text-decoration: none; 
+    bottom: 80%; 
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  h1
+  {
+    text-align: center;
+    color: #ffa5ab;
+  }
+
+  .connectimg {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      height: 50%;
+      border-radius: 5em;
+  }
+
+.container
+{
+    position: absolute;
+    width: 50em;
+    height: auto;
+    border-radius: 5em;
+}
+
+.center-top
+{
+    position: center;
+    width: 12.5em;
+    height: 12.5em;
+    border-radius: 5em;
+    align-content: center;
+}
+
+.center
+{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.resume-button
+{
+    color: white;
+    text-decoration: none;
+    background-color: #a53860;
+    margin-top: 2em;
+}
+
+.inline-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.inline-nav a {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    color: white;
+    text-decoration: none;
+}
+
+.inline-nav a:hover {
+    color: #ffa5ab;
+}
+
+.hover-effect {
+    transition: color 0.2s ease;
+}
+.hover-effect:hover {
+    color: plum;
+}
